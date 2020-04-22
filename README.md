@@ -1,5 +1,5 @@
 # Data-Structures-Using-Python
-### This repository contains Python Script for following Data Structures:
+### This repository contains Python Script for following Data Structures and Algorithms:
 1. Linked List
    - Singly Linked List
    - Doubly Linked List

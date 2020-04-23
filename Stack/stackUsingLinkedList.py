@@ -33,7 +33,13 @@ class Stack:
         print("Deleting Stack.....")
         self.head=None
         print("Stack Deleted.")
+    
+    def isEmpty(self):
+        if(self.head==None):
+            return True
 
+        return False
+        
 if __name__ == "__main__":
     stack=Stack()
     stack.push(5)

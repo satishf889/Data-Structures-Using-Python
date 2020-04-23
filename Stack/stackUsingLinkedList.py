@@ -14,14 +14,16 @@ class Stack:
         node=Node(value)
         node.next=self.head   
         self.head=node
-        print("Pushed "+str(value)+" in stack")
+        # print("Pushed "+str(value)+" in stack")
     
     def pop(self):
         if(self.head==None):
             print("No element found")
             return
-        print("Deleting "+str(self.head.data))
+        # print("Deleting "+str(self.head.data))
+        deleted_node=self.head.data
         self.head=self.head.next
+        return deleted_node
 
     def peek(self):
         if(self.head==None):
@@ -39,7 +41,7 @@ class Stack:
             return True
 
         return False
-        
+
 if __name__ == "__main__":
     stack=Stack()
     stack.push(5)
